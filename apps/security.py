@@ -5,8 +5,6 @@ user_url = "http://user-service-dash.eba-y82cxuwr.us-east-2.elasticbeanstalk.com
 catalog_url = "http://signaldevv20-env.eba-2ibxmk54.us-east-2.elasticbeanstalk.com/"
 alert_url = "http://ec2-13-58-238-7.us-east-2.compute.amazonaws.com:5000/"
 
-dashboard_backend_url = os.environ['DASHBOARD_BACKEND_URL']
-
 aws_id = os.environ['AWS_ID']
 aws_secret = os.environ['AWS_SECRET']
 
