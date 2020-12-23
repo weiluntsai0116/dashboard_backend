@@ -1,30 +1,11 @@
-from flask import Flask, request, Response, session, url_for, redirect
-import os
-import pymysql
+from flask import Flask, request, Response
 import pandas as pd
-import mysql.connector
-from sqlalchemy import create_engine
-from pandas import DataFrame
-from datetime import datetime
-import flask
 import re
-import csv
 import boto3
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_bootstrap_components as dbc
-from dash.dependencies import Input, Output, State
-import jwt
-from cryptography.fernet import Fernet, InvalidToken  # new
 import apps.db_access as db_access
 import apps.security as security
-import plotly.express as px
 from io import StringIO
-import requests
 import json
-import logging
-import os
 
 application = Flask(__name__)
 app = application
@@ -43,7 +24,7 @@ def log_and_extract_input(path_params=None):
             data = None
     except Exception as e:
         # This would fail the request in a more real solution.
-        logger.error("You sent something but I could not get JSON out of it.")
+        # logger.error("You sent something but I could not get JSON out of it.")
         data = ""
 
     inputs = {
