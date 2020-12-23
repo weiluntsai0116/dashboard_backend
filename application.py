@@ -54,7 +54,7 @@ def create_res(json_msg, code):
 # create (post): user_id, signal_id, signal_description, s3
 
 # Endpoint to create a new alert
-@app.route('/api/signal/create', methods=['POST'])
+@app.route('/api/signal', methods=['POST'])
 def create_signal():
     inputs = log_and_extract_input()
     info = inputs["body"]
@@ -88,7 +88,7 @@ def create_signal():
     return create_res({"message": create}, 200)
 
 
-@app.route('/api/signal/modify', methods=['PUT'])
+@app.route('/api/signal', methods=['PUT'])
 def modify_signal():
     inputs = log_and_extract_input()
     info = inputs["body"]
@@ -122,7 +122,7 @@ def modify_signal():
     return create_res({"message": modify}, 200)
 
 
-@app.route('/api/signal/read', methods=['GET'])
+@app.route('/api/signal', methods=['GET'])
 def read_signal():
     inputs = log_and_extract_input()
     info = inputs["body"]
@@ -164,7 +164,7 @@ def read_signal():
     return create_res({"message": read, "csv_string": csv_string}, 200)
 
 
-@app.route('/api/signal/modify', methods=['DELETE'])
+@app.route('/api/signal', methods=['DELETE'])
 def delete_signal():
     inputs = log_and_extract_input()
     info = inputs["body"]
