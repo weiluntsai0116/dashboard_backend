@@ -1,0 +1,32 @@
+10:17:21,275 root INFO Starting Dashboard Service
+10:17:21,294 werkzeug INFO  * Restarting with windowsapi reloader
+10:17:22,736 root INFO Starting Dashboard Service
+10:17:22,746 werkzeug WARNING  * Debugger is active!
+10:17:22,752 werkzeug INFO  * Debugger PIN: 229-598-929
+10:17:22,775 werkzeug INFO  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+10:17:49,280 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:17:49,280 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:17:49,280 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:17:58,614 root INFO Starting Dashboard Service
+10:17:58,632 werkzeug INFO  * Restarting with windowsapi reloader
+10:18:00,85 root INFO Starting Dashboard Service
+10:18:00,94 werkzeug WARNING  * Debugger is active!
+10:18:00,100 werkzeug INFO  * Debugger PIN: 229-598-929
+10:18:00,126 werkzeug INFO  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+10:21:08,363 root ERROR Starting Dashboard Service
+10:21:08,381 werkzeug INFO  * Restarting with windowsapi reloader
+10:21:09,787 root ERROR Starting Dashboard Service
+10:21:09,796 werkzeug WARNING  * Debugger is active!
+10:21:09,803 werkzeug INFO  * Debugger PIN: 229-598-929
+10:21:09,826 werkzeug INFO  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+10:26:30,827 root ERROR Starting Dashboard Service
+10:26:30,845 werkzeug INFO  * Restarting with windowsapi reloader
+10:26:32,230 root ERROR Starting Dashboard Service
+10:26:32,240 werkzeug WARNING  * Debugger is active!
+10:26:32,246 werkzeug INFO  * Debugger PIN: 229-598-929
+10:26:32,270 werkzeug INFO  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+10:31:57,791 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:31:57,792 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:31:57,792 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:31:57,792 werkzeug INFO  * Detected change in 'C:\\Users\\weilu\\Desktop\\01_School\\00_Columbia MSCS\\2021 Fall\\W6156_Cloud_Computing\\00_CC_project\\dashboard\\dashboard.github.io\\application.py', reloading
+10:31:58,905 werkzeug INFO  * Restarting with windowsapi reloader
