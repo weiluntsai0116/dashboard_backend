@@ -129,7 +129,7 @@ def read_signal():
     (user_id, signal_id) = (info["user_id"], info["signal_id"])
     print(info)
 
-    s3_df, cols = None, None
+    csv_string = None
     if user_id == "" or signal_id == "":
         read = u'''Read: Fail! Lack of User ID or Signal ID'''
     elif not re.search('^\d*$', signal_id):
